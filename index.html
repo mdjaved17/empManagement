@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Management System</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      .mt-90 {
+        margin-top: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header fixed-top">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <div class="logo-icon">👥</div>
+            <div class="logo-text">
+              <h1>Employee Management System</h1>
+              <p>Streamline your workforce operations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main mt-90">
+      <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+          <h2>Manage Your Team Efficiently</h2>
+          <p>
+            Comprehensive employee management solution to add new team members,
+            view employee records, modify existing information, and maintain
+            your workforce database with ease.
+          </p>
+        </section>
+
+        <!-- Action Buttons -->
+        <section class="actions">
+          <div class="action-grid">
+            <!-- Add Employee -->
+            <a href="add.html">
+              <div class="action-card add">
+                <button class="action-button">
+                  <div class="icon">➕</div>
+                  <h3>Add Employee</h3>
+                  <p>
+                    Register new team members and add their details to the
+                    system
+                  </p>
+                </button>
+              </div>
+            </a>
+            <!-- View Employees -->
+            <a href="view.html">
+              <div class="action-card view">
+                <button class="action-button">
+                  <div class="icon">👁️</div>
+                  <h3>View Employees</h3>
+                  <p>
+                    Browse and search through your complete employee directory
+                  </p>
+                </button>
+              </div>
+            </a>
+
+            <!-- Modify Employee -->
+            <a href="modifyList.html">
+              <div class="action-card modify">
+                <button class="action-button">
+                  <div class="icon">✏️</div>
+                  <h3>Modify Employee</h3>
+                  <p>
+                    Update and edit existing employee information and records
+                  </p>
+                </button>
+              </div>
+            </a>
+            <!-- Delete Employee -->
+            <a href="delete.html">
+              <div class="action-card delete">
+                <button class="action-button">
+                  <div class="icon">🗑️</div>
+                  <h3>Delete Employee</h3>
+                  <p>Remove employee records from the system database</p>
+                </button>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+          <div class="stats-card">
+            <div class="stat">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Employees Managed</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">99.9%</div>
+              <div class="stat-label">System Uptime</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">Access Available</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2025 Employee Management System. Built for efficient workforce
+          management. <br />
+          Developed by Md Javed.
+        </p>
+      </div>
+    </footer>
+    <script src="add.js"></script>
+  </body>
+</html>
