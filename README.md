@@ -1,5 +1,9 @@
 Project Overview
 
+LIVE PREVIEW...
+
+
+
 The Employee Management System is a simple web-based application built using HTML, CSS, and JavaScript.
 It allows users to manage employee data directly in the browser without any backend or database.
 All information is stored locally using Browser Local Storage, making it easy to add, edit, view, and delete employee records.
